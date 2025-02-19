@@ -1,0 +1,69 @@
+/* Represents the makeup of the navbar */
+.navbar {
+    background-color: #67067d;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #800080;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar a {
+        width: 100%;
+        padding: 10px 0;
+    }
+}

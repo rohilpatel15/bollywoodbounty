@@ -1,0 +1,143 @@
+/* Represents the entire page */
+.page-container-sponsors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.sponsorLogo {
+  padding: 80px;
+  max-width: 100%;
+  height: auto;
+}
+
+.sponsor-title {
+    font-size: 30px;
+    color: yellow;
+    font-family: "Prata", serif;
+    text-align: center;
+    font-style: italic;
+    margin: -80px;
+}
+
+/* Represents the information for the sponsors */
+.sponsor-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 60px;
+}
+
+.tiers {
+    flex: 1;
+    background-color: #8b1fa3bd;
+    padding: 20px;
+}
+
+#bronze {
+    font-size: 20px;
+    color: rgb(174, 102, 31);
+    font-family: "Prata", serif;
+    font-style: italic;
+}
+
+#silver {
+  font-size: 20px;
+  color: silver;
+  font-family: "Prata", serif;
+  font-style: italic;
+}
+
+#gold {
+  font-size: 20px;
+  color: rgb(188, 161, 9);
+  font-family: "Prata", serif;
+  font-style: italic;
+}
+
+.tiers h1 {
+    font-size: 30px;
+    color: rgb(81, 145, 227);
+    font-family: "Prata", serif;
+    font-style: italic;
+}
+
+.tiers h2 {
+    font-size: 25px;
+    color: rgb(81, 145, 227);
+    font-family: "Prata", serif;
+    font-style: italic;
+}
+
+.tiers ul {
+    color: white;
+    font-family: "Prata", serif;
+}
+
+@media screen and (max-width: 768px) {
+    .page-container-sponsors {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 90px;
+    }
+
+    .sponsorLogo {
+        margin-top: 10px;
+    }
+
+    .sponsor-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+      .sponsor-title p, .sponsor-title h5 {
+        font-size: 13px;
+        margin-bottom: 10px;
+      }
+    
+      .tiers h3, .tiers h2 {
+        font-size: 18px;
+        margin-top: 15px;
+      }
+    
+      .tiers ul {
+        padding: 0;
+        margin-top: 10px;
+        font-size: 14px;
+      }
+
+      .tiers {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .tiers ul li {
+        text-align: left;
+        margin-left: 10px;
+      }
+
+      .sponsor-content {
+        padding: 20px;
+        max-width: 100%;
+      }
+    
+      .sponsor-content h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+      }
+    
+      .sponsor-content h2 {
+        font-size: 18px;
+      }
+}

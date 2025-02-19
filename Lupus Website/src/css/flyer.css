@@ -1,0 +1,188 @@
+/* Represents the website */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url("../assets/75291.jpg");
+}
+
+/*Fade in effect */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Represents the entire page */
+.flyer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Represents all of the information on the entire page */
+.flyer-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+    animation: fadeIn 1.5s ease-out;
+}
+
+/* Represents logos on the left column */
+.logoColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.flyerLogo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.lupusLogo {
+    height: auto;
+    width: 100%;
+}
+
+/* Represents the information in the right column */
+.flyer-content {
+    max-width: 400px;
+    max-height: 800px;
+    background-color:#67067dbd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.flyer-subtitle {
+    font-size: 30px;
+    color: yellow;
+    font-family: "Prata", serif;
+    text-align: center;
+    font-style: italic;
+}
+
+
+.flyer-text {
+    font-size: 30px;
+    font-family: "Prata", serif;
+    text-align: center;
+}
+
+.flyer-details {
+    font-size: 20px;
+    font-family: "Prata", serif;
+    text-align: center;
+}
+
+.flyer-description {
+    font-size: 15px;
+    font-family: "Prata", serif;
+    text-align: center;
+}
+
+.flyer-qr {
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: "Prata", serif;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    color: white;
+    margin-left: 65px;
+}
+
+.link:hover {
+    color: blue;
+}
+
+.flyer-contact {
+    color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: "Prata", serif;
+}
+
+@media (max-width: 768px) {
+    .flyer-container {
+      padding: 10px;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  
+    .flyer-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+    }
+  
+    .logoColumn {
+      align-items: center;
+      gap: 10px;
+      margin-top: 120px;
+    }
+  
+    .flyerLogo, .lupusLogo {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .flyer-content {
+      width: 100%; 
+      max-width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+  
+    .flyer-subtitle {
+      font-size: 25px;
+    }
+  
+    .flyer-text {
+      font-size: 20px;
+    }
+  
+    .flyer-details {
+      font-size: 18px;
+    }
+  
+    .flyer-description {
+      font-size: 14px;
+    }
+  
+    .flyer-qr {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .link {
+      margin-top: 10px;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .flyer-contact {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  

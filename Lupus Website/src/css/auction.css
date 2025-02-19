@@ -1,0 +1,94 @@
+/* Represents the entire page */
+.page-container-auction {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    animation: fadeIn 1.5s ease-out;
+}
+
+/* Represents the logo on the page */
+.auctionLogo {
+    padding: 80px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Represents all of the info outside of the logo */
+.auction-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 60px;
+}
+
+.auction-title {
+    font-size: 30px;
+    color: yellow;
+    font-family: "Prata", serif;
+    text-align: center;
+    font-style: italic;
+    margin: -80px;
+}
+
+.items {
+    flex: 1;
+    background-color: #8b1fa3bd;
+    padding: 20px;
+}
+
+.items h1 {
+    font-size: 30px;
+    color: yellow;
+    font-family: "Prata", serif;
+    font-style: italic;
+}
+
+.items h2 {
+    font-size: 25px;
+    color: rgb(222, 122, 50);
+    font-family: "Prata", serif;
+    font-style: italic;
+}
+
+.items ul {
+    color: white;
+    font-family: "Prata", serif;
+}
+
+@media screen and (max-width: 768px) {
+    .page-container-auction {
+        margin-top: 90px;
+        padding: 10px;
+    }
+
+    .auction-title {
+        font-size: 18px;
+    }
+
+    .auctionLogo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .auction-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .items {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .items h3, .items h1, .items h2 {
+        font-size: 18px;
+    }
+
+    .items ul {
+        font-size: 14px;
+    }
+}
