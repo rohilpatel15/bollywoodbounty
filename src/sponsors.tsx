@@ -1,5 +1,5 @@
 import "./css/sponsors.css";
-import logo from "/public/Bollywood Bounty logo-8894db62.png";
+import logo from "./assets/Bollywood Bounty logo.png";
 
 const Sponsors = () => {
   return (
