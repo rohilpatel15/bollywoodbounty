@@ -1,6 +1,6 @@
 import "./css/about.css";
-import lupusFacts from "./assets/preview.jpeg";
-import lupus from "./assets/lupuslogo1.jpg";
+import lupusFacts from "./assets/preview-c349261b.jpeg";
+import lupus from "./assets/lupuslogo1-9edf3e85.jpg";
 
 const AboutUs = () => {
   return (

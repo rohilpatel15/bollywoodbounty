@@ -1,4 +1,4 @@
-import logo from "./assets/Bollywood Bounty logo.png";
+import logo from "./assets/Bollywood Bounty logo-8894db62.png";
 import "./css/auction.css";
 
 const Auction = () => {
