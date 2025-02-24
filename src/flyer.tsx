@@ -1,7 +1,7 @@
 import "./css/flyer.css";
-import logo from "./assets/Bollywood Bounty logo-8894db62.png";
-import qr from "./assets/qr code-274660db.jpg";
-import lupus from "./assets/lupuslogo1-9edf3e85.jpg";
+import logo from "./assets/Bollywood Bounty logo.png";
+import qr from "./assets/qr code.jpg";
+import lupus from "./assets/lupuslogo1.jpg";
 
 const Flyer = () => {
   return (
