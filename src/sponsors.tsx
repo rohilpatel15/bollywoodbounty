@@ -7,9 +7,8 @@ const Sponsors = () => {
       <img src={logo} className="sponsorLogo" alt="Bollywood Bounty Logo" />
 
       <div className="sponsor-title">
-        <h4>Sponsorship Opportunities</h4>
+        <h3>Sponsorship Opportunities</h3>
         <p>If You Are Interested Please Contact: sanjay.mishra@comcast.net</p>
-        <p>Or: anthony.donnell.jones@gmail.com</p>
       </div>
 
       <div className="sponsor-content">
