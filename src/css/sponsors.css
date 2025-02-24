@@ -98,8 +98,13 @@
         text-align: center;
     }
     
-      .sponsor-title p, .sponsor-title h5 {
-        font-size: 13px;
+      .sponsor-title p {
+        font-size: 11px;
+        margin-bottom: 10px;
+      }
+
+      .sponsor-title h4 {
+        font-size: 25px;
         margin-bottom: 10px;
       }
     

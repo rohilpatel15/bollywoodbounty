@@ -7,7 +7,7 @@ const Auction = () => {
           <img src={logo} className="auctionLogo" alt="Bollywood Bounty Logo" />
     
           <div className="auction-title">
-            <h3>Items Available for Auction Coming Soon!</h3>
+            <h4>Items Available for Auction Coming Soon!</h4>
           </div>
     
           {/* <div className="auction-content">

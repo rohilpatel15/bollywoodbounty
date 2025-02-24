@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   Link,
@@ -56,15 +56,16 @@ function App() {
   return (
     <Router>
       <div>
-        <NavBar/>
-      <Routes>
-        <Route path="/" element={<Flyer />} />
-        <Route path="/sponsors" element={<Sponsors />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/auction" element={<Auction />} />
-      </Routes>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Flyer />} />
+          <Route path="/sponsors" element={<Sponsors />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/auction" element={<Auction />} />
+        </Routes>
       </div>
     </Router>
   );
 }
+
 export default App;
